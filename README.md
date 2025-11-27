@@ -1,6 +1,7 @@
 # Velkommen til Programmering på HC Ørsted Gymnasiet
 
 I skal i dag lave en simulering af en satellit i cirkulært kredsløb om jorden.
+
  
 - I skal vælge en satellit i vil simulere - finde data om satellitten og jordens radius.
 - I skal lære lidt om 3D koordinatsystemer.
@@ -12,6 +13,11 @@ Der er flere typer satelitter der bevæger sig i cirkulære kredsløb om jerden.
 - Den Internationale Rumstation (ISS)
 - Hubble rumteleskopet
 - GPS satelitter
+
+Her et link til satellitetracker3d, hvor I kan se forskellige satellitter i kredsløb om jorden:
+
+[https://satellitetracker3d.com/](https://satellitetracker3d.com/)
+
 
 ## 3D koordinatsystemer
 
