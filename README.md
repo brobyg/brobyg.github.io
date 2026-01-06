@@ -20,6 +20,10 @@ Her et link til satellitetracker3d, hvor I kan se forskellige satellitter i kred
 ## 3D koordinatsystemer
 
 For at gøre dette skal vi kende lidt til 3d koordinatsystemer.
+Det mest almindelige 3d koordinatsystem er et højrehåndskoordinatsystem, som ser således ud:
+![RightHandCS.png](RightHandCS.png)
+
+
 Et 3D koordinatsystem er en måde at beskrive positioner i rummet ved hjælp af tre akser: X, Y og Z. Hver akse repræsenterer en dimension. Lad os afprøve det i GeoGebra 3D:
 
 - hvordan ser de tre akser ud?
