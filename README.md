@@ -40,6 +40,8 @@ Et 3D koordinatsystem er en måde at beskrive positioner i rummet ved hjælp af 
 
 Her er et eksempel hvordan man kan tegne en kugle i 3D i p5.js:
 
+endelig eksempel på simualtionen [https://editor.p5js.org/ajrp/sketches/9-8VgeiIL](https://editor.p5js.org/ajrp/sketches/9-8VgeiIL)
+
 ```javascript
 
 let radius_kugle1 = 10  // variabel til kugleradius
