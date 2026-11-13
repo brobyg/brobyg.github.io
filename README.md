@@ -38,9 +38,7 @@ Et 3D koordinatsystem er en måde at beskrive positioner i rummet ved hjælp af 
 
 [https://editor.p5js.org/](https://editor.p5js.org/)
 
-Her er et eksempel hvordan man kan tegne en kugle i 3D i p5.js:
-
-endelig eksempel på simualtionen [https://editor.p5js.org/ajrp/sketches/9-8VgeiIL](https://editor.p5js.org/ajrp/sketches/9-8VgeiIL)
+Nedenfor ses et eksempel på hvordan man kan tegne en kugle i 3D i p5.js.
 
 ```javascript
 
@@ -58,16 +56,29 @@ function draw() { // hovedloop
 
   push(); // gem den nuværende tilstand
   fill(255,0,0) // farve rød
-  rotateY(rotationOmY) // rotation, af hele koordinatsystem, om Y aksen
-  translate(0,0,translationZ) // flytning, af hele koordinatsystem, langs Z aksen
+
   sphere(radius_kugle1); // tegn kugle
   pop(); // gendan den gemte tilstand
     
 }
 
 ```
+Der mangler dog to vigtige js-kommandoer for at bestemme "positionen" og simulere "bevægelsen", nemlig:
+
+```javascript
+  rotateY(rotationOmY) // rotation, af hele koordinatsystem, om Y aksen
+```
+
+og
+
+```javascript
+ translate(0,0,translationZ) // flytning, af hele koordinatsystem, langs Z aksen
+```
+
 
 ## Opgaver
-1. Find data om din valgte satellit: radius fra jordens centrum, og omløbstid.
-2. Tegn jord og satellit og satelittens hhøjde med korrekte relative størrelser.
-3. Få satellitten til at bevæge sig i en cirkel rundt om jorden.
+1. Tegn satellitten: Indsæt rotateY()- og translate()-kommandoerne meningsfulde steder i koden, og tegn en ny sphere(), der skal fungere som din satellit.
+2. Skab kredsløb: Få satellitten til at bevæge sig i en cirkulær bane rundt om Jorden.
+3. Indsaml data: Find relevante data for din valgte satellit – nærmere bestemt dens afstand fra Jordens centrum (baneradius) samt dens omløbstid.
+4. Skaler modellen: Tegn Jorden, satellitten og satellittens bane med de korrekte relative størrelsesforhold.
+
