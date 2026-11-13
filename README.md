@@ -54,11 +54,9 @@ function draw() { // hovedloop
   
   background(220); // baggrundsfarve
 
-  push(); // gem den nuværende tilstand
   fill(255,0,0) // farve rød
 
   sphere(radius_kugle1); // tegn kugle
-  pop(); // gendan den gemte tilstand
     
 }
 
