@@ -58,8 +58,8 @@ function draw() { // hovedloop
 
   push(); // gem den nuværende tilstand
   fill(255,0,0) // farve rød
-  rotateY(rotationOmY) // rotation om Y aksen
-  translate(0,0,translationZ) // flytning langs Z aksen
+  rotateY(rotationOmY) // rotation, af hele koordinatsystem, om Y aksen
+  translate(0,0,translationZ) // flytning, af hele koordinatsystem, langs Z aksen
   sphere(radius_kugle1); // tegn kugle
   pop(); // gendan den gemte tilstand
     
